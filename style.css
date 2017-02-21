@@ -1,0 +1,157 @@
+* {
+  box-sizing:border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+height: 2000px;
+}
+
+.wrapper {
+  font-family: 'PT Sans', sans-serif;
+  font-weight: 400;;
+  color: #333333;
+  font-size: 12px;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+div.p1 {
+  position: absolute;
+  top: 120px;
+  left: 0;
+  right: 0;
+  margin: auto;
+
+border-width: 2px;
+border-color: #000000;
+border-style: solid;
+background-color: #acacac;
+width: 523px;
+height: 750px;
+}
+
+div.p2 {
+  position: absolute;
+  top: 100px;
+  left: -40px;
+  right: 0;
+  margin: auto;
+
+border-width: 2px;
+border-color: #000000;
+border-style: solid;
+background-color: #cccccc;
+width: 523px;
+height: 750px;
+}
+
+div.p3 {
+  position: absolute;
+  top: 80px;
+  left: -80px;
+  right: 0;
+  margin: auto;
+  padding: 34px;
+border-width: 2px;
+border-color: #000000;
+border-style: solid;
+background-color: #ebebeb;
+width: 523px;
+height: 750px;
+}
+
+.note3 {
+  position: absolute;
+  right: -80px;
+  top: 40px;
+  width: 110px;
+  height: 35px;
+  border-bottom-right-radius: 10px;
+border-top-right-radius: 10px;
+border-width: 2px;
+border-color:  #000000;
+border-style: solid;
+background-color:  #f68e56;
+}
+
+.note2 {
+width: 100px;
+background-color:  #39b54a;
+right: -50px;
+}
+
+.note1 {
+width: 100px;
+background-color:  #00aeef;
+right: -20px;
+}
+
+#header {
+font-size: 24px;
+margin-bottom: 15px;
+}
+
+#cup {
+  float: left;
+  padding-right: 20px;
+  padding-bottom: 15px;
+}
+
+#aliquam {
+  margin-top: 20px;
+}
+
+#list {
+ float: right;
+}
+
+.article:after {
+  content: ".";
+  display: block;
+  clear: both;
+  height: 0;
+  visibility: hidden;
+}
+
+#nulla {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.joke-left {
+  margin-bottom: 20px;
+}
+
+.joke-right {
+  margin-bottom: 20px;
+  float: right;
+}
+
+#end {
+  font-size: 9px;
+text-align: center;
+}
+
+#share {
+font-family: 'PT Sans', sans-serif;
+position: fixed;
+right: 0;
+top: 80%;
+border-width: 1px;
+border-color: #362f2d;
+border-style: solid;
+background-color: #fbaf5d;
+width: 90px;
+height: 70px;
+font-size: 16px;
+text-align: center;
+}
+
+#shareText {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
